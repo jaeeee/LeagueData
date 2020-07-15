@@ -6,7 +6,7 @@ import json
 import time
 import sys
 
-APIKey = 'RGAPI-e847d061-0f5e-4a86-9d3c-e0b23314a8b1'
+APIKey = 'RGAPI-eca235d3-8456-45be-8de1-07cf887f60c1'
 region = 'na1'
 rank = 'b'
 division = 'c'
@@ -149,6 +149,8 @@ def getListSpecificRank():
         print(df.loc[df['summonerName'].str.lower()==nameInput.lower()][['summonerName','leaguePoints']])
 
 def main():
+    \\ getPlayerBase(NA1); \\ This will grab the dataset of any region
+    \\ sys.exit()
     getUserOption()
     if option == '1':
         df = pd.read_csv("NA1PLAYERBASE.csv", low_memory=False)
