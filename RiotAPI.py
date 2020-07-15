@@ -149,8 +149,8 @@ def getListSpecificRank():
         print(df.loc[df['summonerName'].str.lower()==nameInput.lower()][['summonerName','leaguePoints']])
 
 def main():
-    \\ getPlayerBase(NA1); \\ This will grab the dataset of any region
-    \\ sys.exit()
+    # getPlayerBase(NA1); # This will grab the dataset of any region
+    # sys.exit()
     getUserOption()
     if option == '1':
         df = pd.read_csv("NA1PLAYERBASE.csv", low_memory=False)
