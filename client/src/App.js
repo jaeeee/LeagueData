@@ -30,11 +30,13 @@ function App() {
   const renderProduct = product => {
     return (
       <li key={product._id} className="list__item product">
-        <h3 className="product__name">{product.summonerName}</h3>
+        <h3 className="product__name"><b>{product.summonerName}</b></h3>
         {/* <p className="product__description">{product.summonerId}</p> */}
-        <p>{product.tier} {product.rank} {product.leaguePoints} LP</p>
+        <p><mark>{product.tier} {product.rank}</mark></p>
+        <p>{product.leaguePoints} LP</p>
         <p>{product.wins}W {product.losses}L</p>
         <p>Winrate: {product.Winrate}</p>
+        <br></br>
       </li>
     );
   };
@@ -44,6 +46,7 @@ function App() {
     <div className="App" >
       <center>     
         <MDBCard>
+          <br></br>
         <h1>LoL Ladder Rankings</h1>
         <br>
         </br>
