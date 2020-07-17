@@ -1,4 +1,13 @@
 import React, { useState, useEffect } from "react";
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBInput,
+  MDBBtn,
+  MDBCard,
+  MDBCardBody
+} from "mdbreact";
 
 // SERVICES
 import productService from './services/playersService';
@@ -31,9 +40,13 @@ function App() {
   };
 
   return (
+    <MDBContainer>
     <div className="App" >
-      <center>
+      <center>     
+        <MDBCard>
         <h1>LoL Ladder Rankings</h1>
+        <br>
+        </br>
       <ul className="list">
         {(products && products.length > 0) ? (
           products.map(product => renderProduct(product))
@@ -41,8 +54,10 @@ function App() {
           <p>No products found</p>
         )}
       </ul>
+      </MDBCard>
       </center>
     </div>
+    </MDBContainer>
   );
 }
 
