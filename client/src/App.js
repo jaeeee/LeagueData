@@ -21,8 +21,8 @@ function App() {
   const renderProduct = product => {
     return (
       <li key={product._id} className="list__item product">
-        <h3 className="product__name">{product.name}</h3>
-        <p className="product__description">{product.description}</p>
+        <h3 className="product__name">{product.summonerName}</h3>
+        <p className="product__description">{product.summonerId}</p>
       </li>
     );
   };
