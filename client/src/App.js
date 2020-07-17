@@ -31,7 +31,9 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App" >
+      <center>
+        <h1>LoL Ladder Rankings</h1>
       <ul className="list">
         {(products && products.length > 0) ? (
           products.map(product => renderProduct(product))
@@ -39,6 +41,7 @@ function App() {
           <p>No products found</p>
         )}
       </ul>
+      </center>
     </div>
   );
 }
