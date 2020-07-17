@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // SERVICES
-import productService from './services/productService';
+import productService from './services/playersService';
 
 function App() {
   const [products, setproducts] = useState(null);

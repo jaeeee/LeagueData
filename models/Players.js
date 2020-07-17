@@ -1,4 +1,4 @@
-// /models/Product.js
+// /models/Players.js
 
 const mongoose = require('mongoose');
 const {Schema} = mongoose;
@@ -8,4 +8,4 @@ const productSchema = new Schema({
     summonerId: String,
 })
 
-mongoose.model('products', productSchema);
+mongoose.model('players', productSchema);

@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export default {
   getAll: async () => {
-    let res = await axios.get(`/api/product`);
+    let res = await axios.get(`/api/player`);
     return res.data || [];
   }
 }
