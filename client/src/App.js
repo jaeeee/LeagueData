@@ -22,7 +22,10 @@ function App() {
     return (
       <li key={product._id} className="list__item product">
         <h3 className="product__name">{product.summonerName}</h3>
-        <p className="product__description">{product.summonerId}</p>
+        {/* <p className="product__description">{product.summonerId}</p> */}
+        <p>{product.tier} {product.rank} {product.leaguePoints} LP</p>
+        <p>{product.wins}W {product.losses}L</p>
+        <p>Winrate: {product.Winrate}</p>
       </li>
     );
   };
