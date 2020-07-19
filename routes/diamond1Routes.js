@@ -1,6 +1,6 @@
 // /routes/productRoutes.js
 const mongoose = require('mongoose');
-const Player = mongoose.model('DIAMONDI');
+const Player = mongoose.model('diamond1s');
 
 module.exports = (app) => {
 
