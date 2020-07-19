@@ -10,7 +10,8 @@ import {
 } from "mdbreact";
 
 // SERVICES
-import productService from './services/playersService';
+import productService from './services/diamond1Service';
+//import productService from './services/playersService';
 
 function App() {
   const [products, setproducts] = useState(null);
@@ -47,7 +48,7 @@ function App() {
       <center>     
         <MDBCard>
           <br></br>
-        <h1>LoL Ladder Rankings</h1>
+        <h1>LoL NA Ladder Rankings</h1>
         <br>
         </br>
       <ul className="list">

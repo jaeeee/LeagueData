@@ -6,7 +6,8 @@ const bodyParser = require('body-parser');
 
 
 // IMPORT MODELS
-require('./models/Players');
+//require('./models/Players');
+require('./models/Diamond1');
 
 const app = express();
 
@@ -16,7 +17,8 @@ mongoose.connect(process.env.MONGODB_URI || `mongodb://localhost:27017/test`);
 app.use(bodyParser.json());
 
 //IMPORT ROUTES
-require('./routes/playerRoutes')(app);
+//require('./routes/playerRoutes')(app);
+require('./routes/diamond1Routes')(app);
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
