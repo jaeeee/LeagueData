@@ -30,7 +30,7 @@ Chris Hung Huynh (hhuyn019@ucr.edu)
 
 
 Daniel Kwong (dkwon014@ucr.edu)
-+ Project Setup (npm) and developed server and client for app following MVC structure. Wrote script in order to handle running all server and client concurrently
++ Project Setup (npm) and developed server and client for app following MVC-like structure. Wrote script in order to handle running all server and client concurrently
 + Server: ExpressJS, NodeJS, mongoose. Created models and routes to connect to DB.
 + Client: React front-end. Started on styling using Google's Material Design library. Creates API requests to our server in order to display data
 + MongoDB setup and connection to server (via mongoose)
