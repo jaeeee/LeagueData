@@ -30,8 +30,8 @@ Chris Hung Huynh (hhuyn019@ucr.edu)
 
 
 Daniel Kwong (dkwon014@ucr.edu)
-+ Setup and developed server and client for app. Wrote script in order to handle running all server and client
++ Project Setup (npm) and developed server and client for app. Wrote script in order to handle running all server and client
 + Server: ExpressJS, NodeJS, mongoose. Created models and routes to connect to DB.
 + Client: React front-end. Creates API requests to our server in order to display data (W.I.P)
 + MongoDB setup and connection to server (via mongoose)
-+ Created API on server-end to provide data to client (React)
++ Created API on back-end to provide data to front-end
