@@ -23,7 +23,7 @@ In order to run the crawler, simply run the RiotAPI.py file and follow the instr
 
 ## **Contributors**
 
-Chris Hung Huynh 
+Chris Hung Huynh (hhuyn019@ucr.edu)
 + Built API crawler
 + EDA (visualizations and conclusions)
 + Data cleaning (dropped unnecessary columns, added new valuable columns, standardization)
