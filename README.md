@@ -20,3 +20,10 @@ Our API crawler is a program that sends GET requests to the Riot Games API conti
 ## **How to Run the Code**
 
 In order to run the crawler, simply run the RiotAPI.py file and follow the instructions given by the program.
+
+## **Contributors**
+
+Chris Hung Huynh 
++ Built API crawler
++ EDA (visualizations and conclusions)
++ Data cleaning (dropped unnecessary columns, added new valuable columns, standardization)
