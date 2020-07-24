@@ -1,4 +1,4 @@
-// /routes/productRoutes.js
+// /routes/diamond1Routes.js
 const mongoose = require('mongoose');
 const Player = mongoose.model('diamond1s');
 
