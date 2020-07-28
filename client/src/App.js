@@ -11,6 +11,10 @@ import {
 import TopPlayersGraphs from './pages/TopPlayersGraphs';
 import DiamondGraphs from './pages/DiamondGraphs';
 // import Footer from './Footer';
+import {FaChartBar} from "react-icons/fa";
+import {GiLaurelsTrophy} from "react-icons/gi";
+import {FaMedal} from "react-icons/fa";
+import {FaGem} from "react-icons/fa";
 
 function App() {
   return(
@@ -22,13 +26,13 @@ function App() {
         </MDBNavbarBrand>
           <MDBNavbarNav left>
             <MDBNavItem active>
-              <MDBNavLink to="/">Home</MDBNavLink>
+              <MDBNavLink to="/"><FaChartBar></FaChartBar> Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/diamond">Diamond I Ladder</MDBNavLink>
+              <MDBNavLink to="/diamond"><FaGem></FaGem> Diamond I Ladder</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/ladder">Top Players</MDBNavLink>
+              <MDBNavLink to="/ladder"><FaMedal></FaMedal> Top Players</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
           </MDBNavbar>
