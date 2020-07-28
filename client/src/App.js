@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
+import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
 import Home from "./pages/Home";
 import Diamond from "./pages/Diamond";
 
@@ -9,7 +9,16 @@ function App() {
   return(
     <Router>
       <div className="container">
-        <p>Reee</p>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+            <Link to="/diamond">Diamond Ladder</Link>
+            </li>
+          </ul>
+        </nav>
       </div>
 
       <Switch>
