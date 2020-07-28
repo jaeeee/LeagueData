@@ -1,4 +1,4 @@
-﻿# LoL Data Project 
+﻿# LoL Data Project
 We will be making calls to the Riot Games API to obtain datasets about players and their stats. We will be using a crawler that we made from scratch. We will obtain match data based on players' usernames, and give analytics pertaining to their perforamnce during that match. We can also make suggestions based on the player's performance such as improving their performance or efficiency in specific tasks, such as generating gold per minute or their win rate on specific characters. This game (League of Legends) has a huge esports scene and is very competitive, so many players and professionals can make use of our website and analysis to see what they can improve on.
 
 ## **App Architecture**
@@ -35,3 +35,6 @@ Daniel Kwong (dkwon014@ucr.edu)
 + Client: React front-end. Started on styling using Google's Material Design library. Creates API requests to our server in order to display data
 + MongoDB setup and connection to server (via mongoose)
 + Created API on back-end to provide data to front-end
+
+Jason Chang (jchan149@ucr.edu)
++ Added visualizations
