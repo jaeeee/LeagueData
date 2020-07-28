@@ -38,3 +38,4 @@ Daniel Kwong (dkwon014@ucr.edu)
 
 Jason Chang (jchan149@ucr.edu)
 + Added visualizations
++ Linear regression
