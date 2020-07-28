@@ -10,10 +10,10 @@ import {
 } from "mdbreact";
 
 // SERVICES
-import productService from '../services/diamond1Service';
-//import productService from './services/playersService';
+// import productService from '../services/diamond1Service';
+import productService from '../services/playersService';
 
-function Diamond() {
+function TopPlayers() {
   const [products, setproducts] = useState(null);
 
   useEffect(() => {
@@ -48,7 +48,7 @@ function Diamond() {
       <center>     
         <MDBCard>
           <br></br>
-        <h1>LoL NA Diamond Ladder Rankings</h1>
+        <h1>LoL NA Top Player Rankings</h1>
         <br>
         </br>
       <ul className="list">
@@ -65,4 +65,4 @@ function Diamond() {
   );
 }
 
-export default Diamond;
+export default TopPlayers;
