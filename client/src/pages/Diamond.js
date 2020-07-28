@@ -48,7 +48,7 @@ function Diamond() {
       <center>     
         <MDBCard>
           <br></br>
-        <h1>LoL NA Diamond Ladder Rankings</h1>
+        <h1>Diamond I Ladder Rankings</h1>
         <br>
         </br>
       <ul className="list">

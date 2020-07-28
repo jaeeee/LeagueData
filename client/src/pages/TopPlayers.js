@@ -48,16 +48,16 @@ function TopPlayers() {
       <center>     
         <MDBCard>
           <br></br>
-        <h1>LoL NA Top Player Rankings</h1>
+        <h1>Top Player Rankings</h1>
         <br>
         </br>
-      <ul className="list">
+      <ol className="list">
         {(products && products.length > 0) ? (
           products.map(product => renderProduct(product))
         ) : (
           <p>No products found</p>
         )}
-      </ul>
+      </ol>
       </MDBCard>
       </center>
     </div>

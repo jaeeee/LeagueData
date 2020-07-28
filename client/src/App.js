@@ -25,7 +25,7 @@ function App() {
               <MDBNavLink to="/">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/diamond">Diamond Ladder</MDBNavLink>
+              <MDBNavLink to="/diamond">Diamond I Ladder</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink to="/ladder">Top Players</MDBNavLink>
